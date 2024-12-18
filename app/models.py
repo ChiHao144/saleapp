@@ -45,6 +45,7 @@ if __name__ == '__main__':
     with app.app_context():
         db.create_all()
 
+
         # u = User(name="admin", username="admin", password=str(hashlib.md5("123456".encode('utf-8')).hexdigest()),
         #          avatar="https://cdnv2.tgdd.vn/mwg-static/common/News/1569924/9.jpg",
         #          user_role=UserRole.ADMIN)
